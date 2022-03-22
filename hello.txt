@@ -1,3 +1,8 @@
 fhfhhgjhgjsdfsd
 
-hello world
+@Autowired
+	private MemberDaoMybatis boardDAO;
+
+	public void insertMember(MemberVO vo) {
+		boardDAO.insertMember(vo);
+	}
